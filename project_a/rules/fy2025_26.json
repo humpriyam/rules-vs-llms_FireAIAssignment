@@ -1,0 +1,180 @@
+{
+    "fy": "2025-26",
+    "ay": "2026-27",
+    "new_regime": {
+        "clause": "Section 115BAC(1A) as amended by Finance Act 2025",
+        "standard_deduction": {
+            "value": 75000,
+            "clause": "Section 16(ia)"
+        },
+        "slabs": [
+            {
+                "upto": 400000,
+                "rate": 0.00
+            },
+            {
+                "upto": 800000,
+                "rate": 0.05
+            },
+            {
+                "upto": 1200000,
+                "rate": 0.10
+            },
+            {
+                "upto": 1600000,
+                "rate": 0.15
+            },
+            {
+                "upto": 2000000,
+                "rate": 0.20
+            },
+            {
+                "upto": 2400000,
+                "rate": 0.25
+            },
+            {
+                "upto": null,
+                "rate": 0.30
+            }
+        ],
+        "rebate_87A": {
+            "income_limit": 1200000,
+            "max_rebate": 60000,
+            "marginal_relief": true,
+            "clause": "Section 87A(2) as amended by Finance Act 2025"
+        },
+        "surcharge_cap_rate": 0.25
+    },
+    "old_regime": {
+        "standard_deduction": {
+            "value": 50000,
+            "clause": "Section 16(ia)"
+        },
+        "slabs_by_age": {
+            "below_60": [
+                {
+                    "upto": 250000,
+                    "rate": 0.00
+                },
+                {
+                    "upto": 500000,
+                    "rate": 0.05
+                },
+                {
+                    "upto": 1000000,
+                    "rate": 0.20
+                },
+                {
+                    "upto": null,
+                    "rate": 0.30
+                }
+            ],
+            "60_to_79": [
+                {
+                    "upto": 300000,
+                    "rate": 0.00
+                },
+                {
+                    "upto": 500000,
+                    "rate": 0.05
+                },
+                {
+                    "upto": 1000000,
+                    "rate": 0.20
+                },
+                {
+                    "upto": null,
+                    "rate": 0.30
+                }
+            ],
+            "80_plus": [
+                {
+                    "upto": 500000,
+                    "rate": 0.00
+                },
+                {
+                    "upto": 1000000,
+                    "rate": 0.20
+                },
+                {
+                    "upto": null,
+                    "rate": 0.30
+                }
+            ],
+            "clause": "Finance Act 2025, First Schedule"
+        },
+        "rebate_87A": {
+            "income_limit": 500000,
+            "max_rebate": 12500,
+            "marginal_relief": false,
+            "clause": "Section 87A(1)"
+        }
+    },
+    "surcharge": {
+        "clause": "Finance Act 2025, First Schedule",
+        "brackets": [
+            {
+                "above": 5000000,
+                "rate": 0.10
+            },
+            {
+                "above": 10000000,
+                "rate": 0.15
+            },
+            {
+                "above": 20000000,
+                "rate": 0.25
+            },
+            {
+                "above": 50000000,
+                "rate": 0.37,
+                "old_regime_only": true
+            }
+        ],
+        "marginal_relief": true
+    },
+    "cess": {
+        "rate": 0.04,
+        "clause": "Finance Act, Health and Education Cess"
+    },
+    "deductions_old_regime_only": {
+        "80C": {
+            "limit": 150000,
+            "clause": "Section 80C"
+        },
+        "80CCD_1B": {
+            "limit": 50000,
+            "clause": "Section 80CCD(1B)"
+        },
+        "80D": {
+            "self_family": {
+                "normal": 25000,
+                "senior": 50000
+            },
+            "parents": {
+                "normal": 25000,
+                "senior": 50000
+            },
+            "clause": "Section 80D"
+        },
+        "home_loan_interest_self_occupied": {
+            "limit": 200000,
+            "clause": "Section 24(b)"
+        }
+    },
+    "hra": {
+        "clause": "Section 10(13A) read with Rule 2A",
+        "metro_pct": 0.50,
+        "non_metro_pct": 0.40,
+        "rent_minus_pct_of_salary": 0.10,
+        "metro_cities": [
+            "Delhi",
+            "Mumbai",
+            "Kolkata",
+            "Chennai"
+        ],
+        "salary_definition": "basic + DA forming part of retirement benefits",
+        "regime": "old_only"
+    }
+}
+

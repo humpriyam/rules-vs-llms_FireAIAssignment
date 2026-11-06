@@ -1,0 +1,55 @@
+INCOME-TAX RULES, SALARIED INDIVIDUALS, FY 2025-26 (AY 2026-27)
+Sources: Income-tax Act 1961 as amended by Finance Act 2025. All amounts in rupees.
+Assumption: resident individual, salary income only.
+
+[S1] SECTION 115BAC(1A): NEW REGIME (default) SLABS
+Total income up to 4,00,000: nil
+4,00,001 to 8,00,000: 5%
+8,00,001 to 12,00,000: 10%
+12,00,001 to 16,00,000: 15%
+16,00,001 to 20,00,000: 20%
+20,00,001 to 24,00,000: 25%
+Above 24,00,000: 30%
+Slabs are the same for all ages.
+
+[S2] OLD REGIME SLABS (Finance Act 2025, First Schedule)
+Below 60 years: up to 2,50,000 nil; to 5,00,000 5%; to 10,00,000 20%; above 10,00,000 30%.
+Age 60 to 79 (senior citizen): up to 3,00,000 nil; to 5,00,000 5%; to 10,00,000 20%; above 30%.
+Age 80 and above (super senior): up to 5,00,000 nil; to 10,00,000 20%; above 10,00,000 30%.
+
+[S3] SECTION 16(ia): STANDARD DEDUCTION
+New regime: 75,000 (or gross salary if lower).
+Old regime: 50,000 (or gross salary if lower).
+
+[S4] SECTION 10(13A) READ WITH RULE 2A: HRA EXEMPTION (old regime only)
+Exemption is the least of:
+(a) actual HRA received;
+(b) rent paid minus 10% of salary;
+(c) 50% of salary if living in Delhi, Mumbai, Kolkata or Chennai, else 40%.
+"Salary" = basic + dearness allowance forming part of retirement benefits.
+Exemption cannot be negative.
+
+[S5] SECTION 80C (old regime only): maximum deduction 1,50,000.
+
+[S6] SECTION 80CCD(1B) (old regime only): additional NPS deduction, maximum 50,000, over and above 80C.
+
+[S7] SECTION 80D (old regime only)
+Self, spouse and children: up to 25,000; up to 50,000 if the taxpayer is a senior citizen (60+).
+Parents: additional up to 25,000; up to 50,000 if parents are senior citizens.
+
+[S8] SECTION 24(b) (old regime only): interest on loan for self-occupied house, maximum 2,00,000.
+
+[S9] SECTION 87A: REBATE (resident individuals)
+New regime: if taxable income <= 12,00,000, rebate = tax, maximum 60,000.
+  Marginal relief: if income exceeds 12,00,000, tax payable cannot exceed income minus 12,00,000.
+Old regime: if taxable income <= 5,00,000, rebate = tax, maximum 12,500. No marginal relief.
+
+[S10] SURCHARGE (Finance Act 2025, First Schedule), on income tax before cess
+Total income above 50,00,000 up to 1,00,00,000: 10%
+Above 1,00,00,000 up to 2,00,00,000: 15%
+Above 2,00,00,000 up to 5,00,00,000: 25%
+Above 5,00,00,000: 37% (old regime). New regime is capped at 25%.
+Marginal relief: tax plus surcharge cannot exceed tax at the threshold plus the income above the threshold.
+
+[S11] HEALTH AND EDUCATION CESS: 4% on (income tax + surcharge), both regimes.
+

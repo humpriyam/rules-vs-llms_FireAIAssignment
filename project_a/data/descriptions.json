@@ -1,0 +1,509 @@
+[
+    {
+        "id": "d01",
+        "style": "plain",
+        "text": "I am 30 years old and earn 12,00,000 a year in salary. No investments.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1200000,
+            "age": 30
+        }
+    },
+    {
+        "id": "d02",
+        "style": "plain",
+        "text": "Age 45, monthly salary 1.5 lakh, I invest 1.5 lakh in PPF and pay 25000 for health insurance.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1800000,
+            "age": 45,
+            "sec_80c": 150000,
+            "sec_80d_self": 25000
+        }
+    },
+    {
+        "id": "d03",
+        "style": "hinglish",
+        "text": "Meri age 28 hai aur salary 8 lakh saal ki hai.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 800000,
+            "age": 28
+        }
+    },
+    {
+        "id": "d04",
+        "style": "hinglish",
+        "text": "Mera salary 90,000 per month hai, umar 35 saal, Bangalore mein rehta hoon, koi investment nahi.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1080000,
+            "age": 35
+        }
+    },
+    {
+        "id": "d05",
+        "style": "plain",
+        "text": "I am 62 and still draw a salary of 9 lakh per year. I pay 40000 for my health insurance.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 900000,
+            "age": 62,
+            "sec_80d_self": 40000
+        }
+    },
+    {
+        "id": "d06",
+        "style": "plain",
+        "text": "Age 33, gross 18 lakh a year, basic 9 lakh, HRA 3.6 lakh, rent 30000 per month in Mumbai.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1800000,
+            "age": 33,
+            "basic": 900000,
+            "hra_received": 360000,
+            "rent_paid": 360000,
+            "metro": true
+        }
+    },
+    {
+        "id": "d07",
+        "style": "plain",
+        "text": "I am 40, annual salary Rs 25,00,000. Home loan interest 2.4 lakh for my own house, 80C 1.5 lakh, NPS 50000.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 2500000,
+            "age": 40,
+            "home_loan_interest": 240000,
+            "sec_80c": 150000,
+            "sec_80ccd_1b": 50000
+        }
+    },
+    {
+        "id": "d08",
+        "style": "hinglish",
+        "text": "Main 31 saal ka hoon, 15 lakh salary, Pune mein rent 20000 mahina deta hoon, basic 6 lakh, HRA 2.4 lakh.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1500000,
+            "age": 31,
+            "basic": 600000,
+            "hra_received": 240000,
+            "rent_paid": 240000,
+            "metro": false
+        }
+    },
+    {
+        "id": "d09",
+        "style": "plain",
+        "text": "I'm 55 with a salary of 50 lakh per annum. I put 1.5L in ELSS.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 5000000,
+            "age": 55,
+            "sec_80c": 150000
+        }
+    },
+    {
+        "id": "d10",
+        "style": "plain",
+        "text": "Age 38, salary 7.5 lakh per annum, nothing else.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 750000,
+            "age": 38
+        }
+    },
+    {
+        "id": "d11",
+        "style": "plain",
+        "text": "I am 67 years old, salary 14 lakh. My parents are 88, I paid 50,000 for their mediclaim and 50,000 for mine.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1400000,
+            "age": 67,
+            "sec_80d_self": 50000,
+            "sec_80d_parents": 50000,
+            "parents_senior": true
+        }
+    },
+    {
+        "id": "d12",
+        "style": "plain",
+        "text": "Salary 1 crore a year, age 44, no deductions.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 10000000,
+            "age": 44
+        }
+    },
+    {
+        "id": "d13",
+        "style": "hinglish",
+        "text": "Mera salary 55000 per month hai, umar 26. LIC premium 30000 saal ka aur PPF 40000.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 660000,
+            "age": 26,
+            "sec_80c": 70000
+        }
+    },
+    {
+        "id": "d14",
+        "style": "plain",
+        "text": "Age 50. Annual gross 22 lakh, basic 8.8 lakh, DA 1.2 lakh, HRA 4 lakh, paying 35,000 monthly rent in Delhi.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 2200000,
+            "age": 50,
+            "basic": 880000,
+            "da": 120000,
+            "hra_received": 400000,
+            "rent_paid": 420000,
+            "metro": true
+        }
+    },
+    {
+        "id": "d15",
+        "style": "plain",
+        "text": "I'm 24 and just started, 6 lakh per year.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 600000,
+            "age": 24
+        }
+    },
+    {
+        "id": "d16",
+        "style": "plain",
+        "text": "Age 36, 20 lakh gross salary per year, 80D 25000 for self, extra 50k in NPS.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 2000000,
+            "age": 36,
+            "sec_80d_self": 25000,
+            "sec_80ccd_1b": 50000
+        }
+    },
+    {
+        "id": "d17",
+        "style": "hinglish",
+        "text": "Mera age 70 hai, pension aur salary milake 11 lakh saal ka, 80D me 50000.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1100000,
+            "age": 70,
+            "sec_80d_self": 50000
+        }
+    },
+    {
+        "id": "d18",
+        "style": "plain",
+        "text": "I am 41. Monthly salary 2.5 lakh, home loan interest 1.8 lakh per year on my own house.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 3000000,
+            "age": 41,
+            "home_loan_interest": 180000
+        }
+    },
+    {
+        "id": "d19",
+        "style": "plain",
+        "text": "Age 32, salary 10 lakh a year. I live with my parents so no rent. 1 lakh in PPF.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1000000,
+            "age": 32,
+            "sec_80c": 100000
+        }
+    },
+    {
+        "id": "d20",
+        "style": "plain",
+        "text": "Salary 16 lakh a year, I am 85.",
+        "expect": "ok",
+        "fields": {
+            "gross_salary": 1600000,
+            "age": 85
+        }
+    },
+    {
+        "id": "d21",
+        "style": "incomplete",
+        "text": "I earn about 12 lakh.",
+        "expect": "ask",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d22",
+        "style": "incomplete",
+        "text": "I am 30 years old, how much tax do I pay?",
+        "expect": "ask",
+        "ask": [
+            "gross_salary"
+        ]
+    },
+    {
+        "id": "d23",
+        "style": "hinglish",
+        "text": "Meri salary 10 lakh saal ki hai, tax kitna lagega?",
+        "expect": "ask",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d24",
+        "style": "incomplete",
+        "text": "Age 35, I pay rent of 25000 a month in Mumbai, salary 15 lakh a year.",
+        "expect": "ask",
+        "ask": [
+            "basic",
+            "hra_received"
+        ]
+    },
+    {
+        "id": "d25",
+        "style": "incomplete",
+        "text": "I'm 40, salary 20 lakh a year, I pay rent and get HRA.",
+        "expect": "ask",
+        "ask": [
+            "basic",
+            "hra_received",
+            "rent_paid",
+            "metro"
+        ]
+    },
+    {
+        "id": "d26",
+        "style": "incomplete",
+        "text": "Age 28, salary 9 lakh a year. I put some money in PPF and also have health insurance.",
+        "expect": "ask",
+        "ask": [
+            "sec_80c",
+            "sec_80d_self"
+        ]
+    },
+    {
+        "id": "d27",
+        "style": "hinglish",
+        "text": "Mera age 33 hai, ghar ka loan chal raha hai, salary 18 lakh saal ki.",
+        "expect": "ask",
+        "ask": [
+            "home_loan_interest"
+        ]
+    },
+    {
+        "id": "d28",
+        "style": "incomplete",
+        "text": "Salary is 80,000 monthly.",
+        "expect": "ask",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d29",
+        "style": "incomplete",
+        "text": "Help me save tax.",
+        "expect": "ask",
+        "ask": [
+            "gross_salary",
+            "age"
+        ]
+    },
+    {
+        "id": "d30",
+        "style": "incomplete",
+        "text": "I'm 52, I pay rent 30000 per month, my basic is 7 lakh, HRA 3 lakh, salary 17 lakh a year.",
+        "expect": "ask",
+        "ask": [
+            "metro"
+        ]
+    },
+    {
+        "id": "d31",
+        "style": "incomplete",
+        "text": "I am 46 and my parents are alive, I pay their health insurance. Salary 24 lakh a year.",
+        "expect": "ask",
+        "ask": [
+            "sec_80d_parents",
+            "parents_senior"
+        ]
+    },
+    {
+        "id": "d32",
+        "style": "hinglish",
+        "text": "Main Delhi mein rehta hoon, rent 18000 mahina, salary 12 lakh saal ki, umar 29.",
+        "expect": "ask",
+        "ask": [
+            "basic",
+            "hra_received"
+        ]
+    },
+    {
+        "id": "d33",
+        "style": "incomplete",
+        "text": "Age 37, salary 14 lakh a year and I have an NPS contribution.",
+        "expect": "ask",
+        "ask": [
+            "sec_80ccd_1b"
+        ]
+    },
+    {
+        "id": "d34",
+        "style": "hinglish",
+        "text": "Mera salary 7 lakh hai.",
+        "expect": "ask",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d35",
+        "style": "incomplete",
+        "text": "I am a senior citizen with salary 13 lakh a year.",
+        "expect": "ask",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d36",
+        "style": "ambiguous",
+        "text": "My CTC is 20 LPA, age 30.",
+        "expect": "ask",
+        "ask": [
+            "gross_salary"
+        ]
+    },
+    {
+        "id": "d37",
+        "style": "ambiguous",
+        "text": "I take home 90,000 a month, age 34.",
+        "expect": "ask",
+        "ask": [
+            "gross_salary"
+        ]
+    },
+    {
+        "id": "d38",
+        "style": "ambiguous",
+        "text": "Salary 1.2 lakh, age 31.",
+        "expect": "ask",
+        "ask": [
+            "period"
+        ]
+    },
+    {
+        "id": "d39",
+        "style": "hinglish",
+        "text": "Mera package 15 lakh ka hai, age 27.",
+        "expect": "ask",
+        "ask": [
+            "gross_salary"
+        ]
+    },
+    {
+        "id": "d40",
+        "style": "ambiguous",
+        "text": "I'm around 60, salary 10 lakh a year.",
+        "expect": "ask",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d41",
+        "style": "ambiguous",
+        "text": "Age 39, salary 12 lakh a year, I live in a metro-ish place near Gurgaon, rent 20000 a month, basic 5 lakh, HRA 2 lakh.",
+        "expect": "ask",
+        "ask": [
+            "metro"
+        ]
+    },
+    {
+        "id": "d42",
+        "style": "ambiguous",
+        "text": "Salary 15 lakh a year, age 36, I invested about 1 to 2 lakh in tax saving.",
+        "expect": "ask",
+        "ask": [
+            "sec_80c"
+        ]
+    },
+    {
+        "id": "d43",
+        "style": "ambiguous",
+        "text": "I changed jobs mid-year, 6 lakh from the first employer, the new one pays 15 lakh a year, age 30.",
+        "expect": "ask",
+        "ask": [
+            "gross_salary"
+        ]
+    },
+    {
+        "id": "d44",
+        "style": "contradictory",
+        "text": "I'm 25 years old and a senior citizen, salary 10 lakh a year.",
+        "expect": "conflict",
+        "ask": [
+            "age"
+        ]
+    },
+    {
+        "id": "d45",
+        "style": "contradictory",
+        "text": "Salary 12 lakh a year, which is 50,000 per month, age 30.",
+        "expect": "conflict",
+        "ask": [
+            "gross_salary"
+        ]
+    },
+    {
+        "id": "d46",
+        "style": "contradictory",
+        "text": "I pay rent 40000 per month but I live in my own house and claim HRA. Age 35, salary 20 lakh, basic 8 lakh, HRA 3 lakh.",
+        "expect": "conflict",
+        "ask": [
+            "rent_paid"
+        ]
+    },
+    {
+        "id": "d47",
+        "style": "hinglish",
+        "text": "Meri age 30 hai lekin mere parents 28 saal ke hain, salary 12 lakh saal ki, unki health insurance 50000.",
+        "expect": "conflict",
+        "ask": [
+            "parents_senior"
+        ]
+    },
+    {
+        "id": "d48",
+        "style": "contradictory",
+        "text": "Salary 8 lakh a year, basic 10 lakh, HRA 2 lakh, age 33.",
+        "expect": "conflict",
+        "ask": [
+            "basic"
+        ]
+    },
+    {
+        "id": "d49",
+        "style": "contradictory",
+        "text": "I am 45, I have no investments at all, but I claim 80C of 1.5 lakh. Salary 11 lakh a year.",
+        "expect": "conflict",
+        "ask": [
+            "sec_80c"
+        ]
+    },
+    {
+        "id": "d50",
+        "style": "contradictory",
+        "text": "My salary is 9 lakh and also 15 lakh per year, age 29.",
+        "expect": "conflict",
+        "ask": [
+            "gross_salary"
+        ]
+    }
+]
